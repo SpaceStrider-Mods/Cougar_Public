@@ -1,0 +1,76 @@
+Vehicle : "{342CF7448414328E}Prefabs/Vehicles/Wheeled/Cougar4x4/Cougar4x4_Tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC_Vehicle_Cougar_4x4 - #SPC_Vehicle_Turret_OGPK #SPC_Weapon_M2HB"
+    Icon "{5779776B5B20F50C}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad_Armed.edds"
+    m_Image "{8312B9C79799000C}UI/Textures/EditorPreviews/Vehicles/Wheeled/Cougar4x4/Cougar4x4_Tan_OPGK.edds"
+    m_aAuthoredLabels + {
+     21
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 550
+     }
+     SCR_EntityBudgetValue "{659B06D93F348ED2}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_aOccupantFillCompartmentTypes + {
+     1
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5D9A570F0AE8734D}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5D9A570F0AE8267E}" {
+   MultiSlots {
+    MultiSlotConfiguration "{649619CB1CFD88B7}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{50A242E5D9742C62}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1Tracer.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo ShadowAO {
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+    }
+    RegisteringComponentSlotInfo Wheel_Spare_R {
+    }
+    RegisteringComponentSlotInfo Roof {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Camera {
+    }
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.32 1.56
+     MergePhysics 1
+     Prefab "{439CCBBE2BCA1E38}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/OGPK/Cougar_gun_mount.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+ coords 10112.696 2.5 1381.136
+}

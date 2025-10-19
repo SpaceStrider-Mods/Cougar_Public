@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DB2B3C3F919DC2CF}Assets/Vehicles/Wheeled/M923A1/workspaces/Cougar_vehicle.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass PS5 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

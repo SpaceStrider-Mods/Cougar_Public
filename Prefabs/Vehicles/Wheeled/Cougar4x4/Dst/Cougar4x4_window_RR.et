@@ -1,0 +1,8 @@
+GenericEntity : "{EAA5AC3377955DEE}Prefabs/Vehicles/Wheeled/Cougar4x4/Dst/Cougar4x4_window_base.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  MeshObject "{54ACA4E7F43678F8}" {
+   Object "{A622280A4796E220}Assets/Vehicles/Wheeled/Cougar/dst/CougarH_Glass_RR.xob"
+  }
+ }
+}

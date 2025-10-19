@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C38C32121D2B7475}Prefabs/Vehicles/Wheeled/Cougar6x6/Configs/Cougar_Tyre.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

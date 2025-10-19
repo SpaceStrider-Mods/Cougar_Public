@@ -1,0 +1,13 @@
+Turret : "{71B6E9BF89F5986F}Prefabs/Vehicles/Wheeled/Cougar6x6/VehParts/Turrets/Camera/CougarH_Camera.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{645B53E48E38DB94}" {
+     SourceMaterial "CougarHE_Body_01"
+     AssignedMaterial "{2F744E6C6E341EFB}Assets/Vehicles/Wheeled/Cougar/Data/CougaHE_Body_01_Olive.emat"
+    }
+   }
+  }
+ }
+}
