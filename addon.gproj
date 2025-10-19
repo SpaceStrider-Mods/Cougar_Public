@@ -1,0 +1,93 @@
+GameProject {
+ ID "Cougar"
+ GUID "5D5A20A8AE33C21E"
+ TITLE "Cougar"
+ Dependencies {
+  "58D0FB3206B6F859" "5E389BB9F58B79A6"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{649619CFF56C0135}" {
+      StringTableSource "{DB1B18E9CE8D5349}Language/Cougar_Localization.st"
+      Languages {
+       LanguageDefinition "{649619CFF7EB4706}" {
+        Code "cs_cz"
+        StringTableRuntime "{440D5D701B700872}Language/Cougar_Localization.cs_cz.conf"
+       }
+       LanguageDefinition "{649619CFF7EB46C2}" {
+        Code "de_de"
+        StringTableRuntime "{9173474308D31952}Language/Cougar_Localization.de_de.conf"
+       }
+       LanguageDefinition "{649619CFF7EB46F7}" {
+        Code "en_us"
+        StringTableRuntime "{CF83CD0862201C53}Language/Cougar_Localization.en_us.conf"
+       }
+       LanguageDefinition "{649619CFF7EB46E6}" {
+        Code "es_es"
+        StringTableRuntime "{0ACF80818C22774C}Language/Cougar_Localization.es_es.conf"
+       }
+       LanguageDefinition "{649619CFF7EB4696}" {
+        Code "fr_fr"
+        StringTableRuntime "{B16775B66AA1944E}Language/Cougar_Localization.fr_fr.conf"
+       }
+       LanguageDefinition "{649619CFF7EB46BA}" {
+        Code "it_it"
+        StringTableRuntime "{317BFA82C78317B7}Language/Cougar_Localization.it_it.conf"
+       }
+       LanguageDefinition "{649619CFF7EB46AB}" {
+        Code "ja_jp"
+        StringTableRuntime "{21604710F9F2271C}Language/Cougar_Localization.ja_jp.conf"
+       }
+       LanguageDefinition "{649619CFF7EB465A}" {
+        Code "ko_kr"
+        StringTableRuntime "{81DE6FBC6ADF2423}Language/Cougar_Localization.ko_kr.conf"
+       }
+       LanguageDefinition "{649619CFF7EB464B}" {
+        Code "pl_pl"
+        StringTableRuntime "{DDAFC946D430B85F}Language/Cougar_Localization.pl_pl.conf"
+       }
+       LanguageDefinition "{649619CFF7EB467C}" {
+        Code "pt_br"
+        StringTableRuntime "{08D8538AEFCE72E5}Language/Cougar_Localization.pt_br.conf"
+       }
+       LanguageDefinition "{649619CFF7EB466F}" {
+        Code "ru_ru"
+        StringTableRuntime "{5D99472272B71793}Language/Cougar_Localization.ru_ru.conf"
+       }
+       LanguageDefinition "{649619CFF7EB79C3}" {
+        Code "uk_ua"
+        StringTableRuntime "{D7C112D41E99A9C6}Language/Cougar_Localization.uk_ua.conf"
+       }
+       LanguageDefinition "{649619CFF7EB79F3}" {
+        Code "zh_cn"
+        StringTableRuntime "{0D717CE9273979DB}Language/Cougar_Localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+   PlatformHardware PS5
+   DefaultSettings EngineUserSettings "{5702F087A781A9FC}" {
+    VideoUserSettings VideoUserSettings "{B272A67DB18E04F9}" {
+     FsrEnabled 1
+    }
+   }
+   ChimeraGlobalConfig ChimeraGlobalConfig "{6F12664687156A7B}" {
+    "Maximum View Distance" 2000
+    "Minimum View Distance" 2000
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
