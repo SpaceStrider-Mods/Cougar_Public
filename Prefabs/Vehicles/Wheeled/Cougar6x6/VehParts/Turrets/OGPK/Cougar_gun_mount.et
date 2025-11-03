@@ -1,0 +1,46 @@
+Turret : "{8D9DD29EBFA08DA5}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/OGPK_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{620D21E9F4BC184F}" {
+     AnimDoorIndex 1
+    }
+    CompartmentDoorReference "{646C3BCE2ADC067B}" {
+     AnimDoorIndex 1
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "gunner" "door_rear"
+      }
+      CanAggregate 1
+     }
+     DoorInfoList {
+      0 2
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "gunner_idle"
+      Offset 0 0 0
+     }
+     Radius 0.4
+    }
+    UserActionContext "{5D60A72880FFBAE1}" {
+     ContextName "door_rear"
+     Position PointInfo "{5D60A72895138352}" {
+      Offset 0 1.58 -3.53
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+}
