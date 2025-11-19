@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9FAA7F79594AC273}Prefabs/Vehicles/Wheeled/Cougar4x4/Dst/Cougar4x4_window_FR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
